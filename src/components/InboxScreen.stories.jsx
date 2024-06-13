@@ -17,7 +17,7 @@ import {
 
 export default {
   component: InboxScreen,
-  title: "InboxScreen",
+  title: "SHARED/InboxScreen",
   decorators: [(story) => <Provider store={store}>{story()}</Provider>],
   tags: ["autodocs"],
 };
